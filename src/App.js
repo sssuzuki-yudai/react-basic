@@ -3,7 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 // import Basic1 from './components/Basic1'
 // import Basic2 from './components/Basic2'
-import BasicUseEffect from './components/BasicUseEffect'
+// import BasicUseEffect from './components/BasicUseEffect'
+import TimerContainer from './components/TimerContainer'
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         {/* <Basic1 name="Hooks"/> */}
         {/* <Basic2 /> */}
-        <BasicUseEffect />
+        {/* <BasicUseEffect /> */}
+        <TimerContainer />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>

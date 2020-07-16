@@ -4,7 +4,9 @@ import './App.css';
 // import Basic1 from './components/Basic1'
 // import Basic2 from './components/Basic2'
 // import BasicUseEffect from './components/BasicUseEffect'
-import TimerContainer from './components/TimerContainer'
+// import TimerContainer from './components/TimerContainer'
+import ApiFetch from './components/ApiFetch'
+
 
 function App() {
   return (
@@ -14,18 +16,8 @@ function App() {
         {/* <Basic1 name="Hooks"/> */}
         {/* <Basic2 /> */}
         {/* <BasicUseEffect /> */}
-        <TimerContainer />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* <TimerContainer /> */}
+        <ApiFetch />
       </header>
     </div>
   );
